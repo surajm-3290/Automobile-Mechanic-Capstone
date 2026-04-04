@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header nav {
+    background-color: #0a2d4d;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo-group a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-icon {
+    height: 30px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navi {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+main {
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: bgSlideshow 5s infinite ease-in;
+}
+
+@keyframes bgSlideshow {
+    0%, 45% {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('home1.jpg');
+    }
+    50%, 95% {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('home2.jpg');
+    }
+    100% {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('home1.jpg');
+    }
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+   
+}
+
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.button-explore {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #f24e6c;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0a2d4d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+}
