@@ -11,7 +11,7 @@ body {
 
 header nav {
     background-color: #0a2d4d;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,14 +34,29 @@ header nav {
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 0px;
     align-items: center;
+}
+
+#main-nohover{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 17px 15px;
 }
 
 .navi {
     text-decoration: none;
     color: white;
     font-size: 14px;
+    padding: 20px 15px;
+}
+
+.navi:hover{
+    background-color: hsl(349, 86%, 63%);
+    color: black;
+    background-size: contain;
+    
 }
 
 .hero-content {
@@ -200,3 +215,4 @@ footer {
     padding: 15px 0;
     font-size: 13px;
 }
+
