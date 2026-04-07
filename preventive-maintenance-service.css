@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header nav {
+    background-color: #0a2d4d;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo-group a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-icon {
+    height: 30px;
+    width: auto;
+}
+
+#main-nohover{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 17px 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+.navi {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 17px 15px;
+}
+
+.navi:hover{
+    background-color: hsl(349, 86%, 63%);
+    color: black;
+    background-size: contain;
+    
+}
+
+footer {
+    background-color: #0a2d4d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+/* main part css */
+body {
+    background-color: #89898a2c;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(63, 62, 63, 0.356);
+    padding: 0;
+    overflow: hidden;
+}
+
+.content-container div {
+    background-color: white;
+    flex: 1;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#image-content {
+    padding: 50px 28px 50px 50px;
+    border-radius: 2px;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(63, 62, 63, 0.271);
+    
+}
+
+.text-content {
+    padding: 50px 50px 50px 28px;
+    
+}
+
+h2{
+    margin: 20px 0px 10px;
+}
+
+#save-text {
+    font-style: italic;
+    color: rgb(168, 15, 15);
+    margin-bottom: 20px;
+
+}
+
+#instruction {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 45px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+#orignal-price {
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+#offer-price {
+    font-weight: 400;
+    color: rgb(171, 20, 20);
+
+}
+
+#book-button {
+    padding: 10px 30px;
+    background-color: hsl(16, 89%, 54%);
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-top: 18px;
+    box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.2);
+
+}
