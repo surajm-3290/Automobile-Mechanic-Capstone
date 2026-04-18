@@ -14,7 +14,12 @@ The project demonstrates practical implementation of responsive web design princ
 - Body Repair Services  
 - Car Care Services  
 - Preventive Maintenance  
-- Mobile-Friendly Design  
+- Mobile-Friendly Design
+
+## 🚀 Demo
+
+LinkedIn Demo:  
+https://www.linkedin.com/feed/update/urn:li:activity:7451245670642151424/
 
 ## 🛠️ Tech Stack
 
@@ -45,11 +50,6 @@ Automobile-Mechanic-Capstone/
 │   └── additional stylesheets
 └── README.md
 ```
-
-## 🚀 Demo
-
-LinkedIn Demo:  
-https://www.linkedin.com/feed/update/urn:li:activity:7451245670642151424/
 
 ## 🔧 Installation
 
