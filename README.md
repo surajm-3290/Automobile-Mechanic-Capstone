@@ -6,6 +6,11 @@ A responsive front-end web application developed as a Capstone Project for the :
 
 The project demonstrates practical implementation of responsive web design principles, structured UI development, and modern front-end styling techniques through a service-oriented web interface.
 
+## 🚀 Demo
+
+LinkedIn Demo:  
+https://www.linkedin.com/feed/update/urn:li:activity:7451245670642151424/
+
 ## ✨ Features
 
 - Responsive User Interface  
@@ -15,11 +20,6 @@ The project demonstrates practical implementation of responsive web design princ
 - Car Care Services  
 - Preventive Maintenance  
 - Mobile-Friendly Design
-
-## 🚀 Demo
-
-LinkedIn Demo:  
-https://www.linkedin.com/feed/update/urn:li:activity:7451245670642151424/
 
 ## 🛠️ Tech Stack
 
